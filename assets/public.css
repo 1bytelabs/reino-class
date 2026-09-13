@@ -1,0 +1,9 @@
+.rcp-box { max-width: 560px; margin: 40px auto; padding: 28px; border: 1px solid rgba(127,127,127,.25); border-radius: 16px; background: rgba(127,127,127,.08); }
+.rcp-box h2 { margin-top: 0; }
+.rcp-session-title { font-size: 1.2rem; font-weight: 700; }
+.rcp-confirm-form { display: grid; gap: 12px; }
+.rcp-confirm-form input { width: 100%; box-sizing: border-box; padding: 14px; border: 1px solid #8c8f94; border-radius: 8px; font: 700 24px/1 ui-monospace, monospace; letter-spacing: 6px; text-align: center; }
+.rcp-button { display: inline-block; padding: 13px 20px; border: 0; border-radius: 8px; background: #3e64de; color: #fff !important; font-weight: 700; text-align: center; text-decoration: none; cursor: pointer; }
+.rcp-message { margin: 14px 0; padding: 12px 14px; border-radius: 8px; }
+.rcp-success { background: #d7f7e5; color: #075b32; }
+.rcp-error { background: #fce8e6; color: #8a2424; }
