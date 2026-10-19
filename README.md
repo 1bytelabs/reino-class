@@ -1,3 +1,5 @@
+<p align="center"><img src="./assets/1bytelabs-cover.svg" alt="reino-class — 1Byte Labs" width="100%" /></p>
+
 # Reino Class - Presença
 
 Plugin privado do Reino Class para controlar a presença nas aulas presenciais integradas ao Tutor LMS.
