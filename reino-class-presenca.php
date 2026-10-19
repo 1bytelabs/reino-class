@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Reino Class - Presença
  * Description: Controle de presença presencial para cursos do Tutor LMS.
- * Version: 0.1.0
- * Author: Zosma Labs
+ * Version: 0.1.1
+ * Author: 1Byte Labs
  * Requires at least: 6.4
  * Requires PHP: 8.0
  * Text Domain: reino-class-presenca
@@ -11,7 +11,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'RCP_VERSION', '0.1.0' );
+define( 'RCP_VERSION', '0.1.1' );
 define( 'RCP_FILE', __FILE__ );
 define( 'RCP_PATH', plugin_dir_path( __FILE__ ) );
 define( 'RCP_URL', plugin_dir_url( __FILE__ ) );
