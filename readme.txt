@@ -1,9 +1,9 @@
 === Reino Class - Presenca ===
-Contributors: zosmalabs
+Contributors: 1bytelabs
 Tags: attendance, tutor-lms, courses
 Requires at least: 6.4
 Requires PHP: 8.0
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: Proprietary - private use
 
 Plugin privado para controle de presenca presencial do Reino Class.

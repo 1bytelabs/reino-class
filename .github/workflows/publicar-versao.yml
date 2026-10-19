@@ -1,0 +1,33 @@
+name: Publicar Reino Class
+on:
+  push:
+    tags: ['v*']
+  pull_request:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  pacote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar sintaxe PHP
+        run: find . -type f -name '*.php' -not -path './.git/*' -print0 | xargs -0 -n1 php -l
+      - name: Montar ZIP instalável
+        run: |
+          mkdir -p dist/reino-class-presenca
+          cp reino-class-presenca.php uninstall.php readme.txt dist/reino-class-presenca/
+          cp -R includes assets dist/reino-class-presenca/
+          cd dist
+          zip -r ../Reino-Class-Presenca-0.1.1.zip reino-class-presenca
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Reino-Class-Presenca-0.1.1
+          path: Reino-Class-Presenca-0.1.1.zip
+          if-no-files-found: error
+      - uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/v')
+        with:
+          name: Reino Class - Presença 0.1.1
+          body: 'Atualiza a identificação do autor para 1Byte Labs. Pacote instalável pelo painel do WordPress.'
+          files: Reino-Class-Presenca-0.1.1.zip
