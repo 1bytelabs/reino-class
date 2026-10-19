@@ -1,3 +1,5 @@
+<p align="center"><img src="./assets/1bytelabs-cover.svg" alt="reino-class — 1Byte Labs" width="100%" /></p>
+
 # Reino Class - Presença
 
 Plugin privado do Reino Class para controlar a presença nas aulas presenciais integradas ao Tutor LMS.
@@ -23,3 +25,7 @@ Plugin privado do Reino Class para controlar a presença nas aulas presenciais i
 ## Desenvolvimento
 
 O plugin requer WordPress 6.4 ou superior, PHP 8.0 ou superior e foi projetado para funcionar ao lado do Tutor LMS.
+
+## Contato — 1Byte Labs
+
+[1bytelabs.com.br](https://1bytelabs.com.br) · [contato@1bytelabs.com.br](mailto:contato@1bytelabs.com.br)
